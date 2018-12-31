@@ -1,0 +1,21 @@
+.frame {
+	width: 800px;
+	height: 600px;
+	border: 10px solid rgba(210,190,200,0.5);
+}
+div div {
+	width: 800px;
+	height: 600px;
+	z-index: 0;
+	position: absolute;
+}
+div div img{
+	width: 800px;
+	height: 600px;
+}
+.currentPic {
+	z-index: 2;
+}
+.previousPic {
+	z-index: 1;
+}
